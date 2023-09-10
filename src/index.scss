@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: light;
+  flex-shrink: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  touch-action: pan-y;
+  // font-size: 12px;
+  // overflow: hidden;
+  // @media (min-width: 768) {
+  //   font-size: 16px;
+  // }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
